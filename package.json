@@ -4,7 +4,7 @@
   "description": "Barebones typescript project starter with a working launch.json for debugging",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node ./index.ts",
+    "start": "npx tsx src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Faisal Al Qasimi",
@@ -12,10 +12,8 @@
   "devDependencies": {
     "@types/node": "^20.6.2",
     "ts-node": "^10.9.1",
+    "tsx": "^4.7.2",
     "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "keypress": "^0.2.1"
   },
   "type": "module"
 }
